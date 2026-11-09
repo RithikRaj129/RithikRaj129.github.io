@@ -1,0 +1,727 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rithik Raj Vaishya — Data Scientist & Corporate Trainer</title>
+<meta name="description" content="Rithik Raj Vaishya — Senior Data Scientist and corporate trainer. 50,000+ professionals and students upskilled in AI, ML, GenAI and Data Science for Siemens, Accenture, Infosys, HDFC Bank, Vodafone, Jio and more.">
+<meta name="author" content="Rithik Raj Vaishya">
+<meta name="theme-color" content="#f8f6f1">
+<link rel="canonical" href="https://rithikraj129.github.io/">
+
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Rithik Raj Vaishya — Data Scientist & Corporate Trainer">
+<meta property="og:description" content="50,000+ learners · 450+ workshops · 75+ corporate clients · AI, ML, GenAI & Data Science for leading corporates and universities.">
+<meta property="og:url" content="https://rithikraj129.github.io/">
+<meta property="og:image" content="https://rithikraj129.github.io/assets/portrait.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,800;1,9..144,400&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Rithik Raj Vaishya",
+  "jobTitle": "Senior Data Scientist & Corporate Trainer",
+  "worksFor": [
+    { "@type": "Organization", "name": "PNT Robotics & Automation Solution" }
+  ],
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "Vellore Institute of Technology" },
+    { "@type": "CollegeOrUniversity", "name": "Vidyalankar School of Information Technology" }
+  ],
+  "address": { "@type": "PostalAddress", "addressLocality": "Mumbai", "addressCountry": "IN" },
+  "email": "mailto:rithikrajvaishy2@gmail.com",
+  "url": "https://rithikraj129.github.io/",
+  "sameAs": [
+    "https://www.linkedin.com/in/rithikrajvaishya",
+    "https://scholar.google.com/citations?user=j0Pup7MAAAAJ&hl=en",
+    "https://github.com/RithikRaj129"
+  ],
+  "knowsAbout": ["Generative AI","Machine Learning","Deep Learning","Data Science","NLP","Data Analytics","MLOps","Big Data"]
+}
+</script>
+
+<style>
+:root{
+  --bg:#f8f6f1; --surface:#fffdf9; --ink:#15171b; --muted:#666158; --line:#e6e0d4;
+  --accent:#9c701c; --accent-ink:#ffffff; --accent-soft:#f2e7d0;
+  --radius:18px; --max:1120px;
+  --serif:"Fraunces",Georgia,serif; --sans:"Instrument Sans",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#121316; --surface:#1b1c20; --ink:#f2efe8; --muted:#a39d92; --line:#2d2b27;
+    --accent:#d4a64a; --accent-ink:#121316; --accent-soft:#3a2f1a;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#121316; --surface:#1b1c20; --ink:#f2efe8; --muted:#a39d92; --line:#2d2b27;
+  --accent:#d4a64a; --accent-ink:#121316; --accent-soft:#3a2f1a;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 16px}
+@media(min-width:720px){.wrap{padding:0 32px}}
+.skip{position:absolute;left:-999px}.skip:focus{left:16px;top:16px;background:var(--accent);color:var(--accent-ink);padding:8px 14px;border-radius:8px;z-index:99}
+
+/* nav */
+header.nav{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 85%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:center;height:64px}
+@media(max-width:900px){.nav .wrap{justify-content:flex-end}}
+.brand{font-family:var(--serif);font-weight:800;font-size:20px;text-decoration:none;letter-spacing:-.02em}
+.brand span{color:var(--accent)}
+.nav ul{display:flex;gap:24px;list-style:none;align-items:center}
+.nav ul a{text-decoration:none;font-size:15px;color:var(--muted);font-weight:500;transition:color .2s}
+.nav ul a:hover{color:var(--ink)}
+.icon-btn{background:none;border:1px solid var(--line);color:var(--ink);width:38px;height:38px;border-radius:50%;cursor:pointer;display:grid;place-items:center;font-size:16px}
+.menu-btn{display:none}
+@media(max-width:900px){
+  .menu-btn{display:grid}
+  .nav ul{position:fixed;inset:64px 0 auto 0;flex-direction:column;gap:0;background:var(--bg);border-bottom:1px solid var(--line);padding:8px 16px 16px;transform:translateY(-130%);transition:transform .3s}
+  .nav ul.open{transform:none}
+  .nav ul li{width:100%}.nav ul a{display:block;padding:12px 0;font-size:17px}
+}
+
+/* hero */
+.hero{padding:64px 0 48px}
+.hero-grid{display:grid;gap:48px;align-items:center}
+@media(min-width:900px){.hero-grid{grid-template-columns:1.25fr .75fr}}
+.eyebrow{font-family:var(--mono);font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+h1{font-family:var(--serif);font-weight:800;font-size:clamp(44px,8vw,92px);line-height:.98;letter-spacing:-.035em;margin:16px 0 20px}
+h1 em{font-style:italic;font-weight:400;color:var(--accent)}
+.lead{font-size:clamp(18px,2.2vw,21px);color:var(--muted);max-width:580px}
+.lead .hl{font-style:normal;color:var(--ink);background:linear-gradient(transparent 62%,var(--accent-soft) 62%);padding:0 2px}
+.creds{margin-top:18px;display:grid;gap:6px;font-size:14.5px;color:var(--muted)}
+.creds span{padding-left:14px;border-left:2px solid var(--accent)}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 22px;border-radius:999px;font-weight:600;text-decoration:none;font-size:15px;border:1.5px solid var(--ink);transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn.primary{background:var(--ink);color:var(--bg)}
+.portrait{position:relative;max-width:380px;margin:0 auto;width:100%}
+.portrait img{aspect-ratio:4/5;object-fit:cover;border-radius:var(--radius);width:100%;background:var(--line)}
+.portrait::before{content:"";position:absolute;inset:16px -16px -16px 16px;border:2px solid var(--accent);border-radius:var(--radius);z-index:-1}
+.badge{position:absolute;left:-12px;bottom:28px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:10px 16px;font-size:13px;box-shadow:0 10px 30px rgba(0,0,0,.08)}
+.badge b{display:block;font-family:var(--serif);font-size:20px;color:var(--accent);line-height:1.1}
+
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(2,1fr);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:var(--surface)}
+@media(min-width:720px){.stats{grid-template-columns:repeat(3,1fr)}}
+.stat{padding:26px 12px;text-align:center;border-right:1px solid var(--line);border-bottom:1px solid var(--line);margin:0 -1px -1px 0}
+.stat b{display:block;font-family:var(--serif);font-weight:800;font-size:clamp(32px,5vw,46px);letter-spacing:-.03em;line-height:1.1}
+.stat span{font-size:14px;color:var(--muted)}
+
+/* marquee of logos (text) */
+.trusted{padding:40px 0 8px}
+.trusted p{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:center;margin-bottom:16px}
+.marquee{overflow:hidden;mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent)}
+.marquee .track{display:flex;gap:48px;width:max-content;animation:scroll 70s linear infinite}
+.marquee span{font-family:var(--serif);font-size:24px;font-weight:600;color:var(--muted);white-space:nowrap}
+@keyframes scroll{to{transform:translateX(-50%)}}
+
+/* sections */
+section{padding:88px 0}
+section.tight{padding-top:0}
+.sec-head{display:flex;align-items:baseline;gap:16px;margin-bottom:40px;flex-wrap:wrap}
+.sec-head .num{font-family:var(--mono);color:var(--accent);font-size:14px}
+.sec-head p{flex-basis:100%;color:var(--muted);max-width:640px}
+h2{font-family:var(--serif);font-weight:600;font-size:clamp(32px,5vw,48px);letter-spacing:-.025em;line-height:1.1}
+h3{font-family:var(--serif);font-weight:600;font-size:22px;letter-spacing:-.01em;margin-bottom:6px;line-height:1.25}
+.about-grid{display:grid;gap:40px}
+@media(min-width:900px){.about-grid{grid-template-columns:1fr 1fr}}
+.about-grid p+p{margin-top:16px}
+.about-grid .big{font-family:var(--serif);font-size:clamp(22px,2.8vw,28px);line-height:1.35;letter-spacing:-.01em}
+
+/* cards */
+.cards{display:grid;gap:16px}
+@media(min-width:780px){.cards{grid-template-columns:repeat(3,1fr)}}
+.cards.two{grid-template-columns:1fr}
+@media(min-width:780px){.cards.two{grid-template-columns:repeat(2,1fr)}}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:28px;transition:border-color .2s,transform .2s}
+.card:hover{border-color:var(--accent);transform:translateY(-3px)}
+.tag{font-family:var(--mono);font-size:12px;color:var(--accent);text-transform:uppercase;letter-spacing:.06em;margin-bottom:12px;display:block}
+.card p{color:var(--muted);font-size:15.5px}
+.card a.more{display:inline-block;margin-top:14px;font-weight:600;font-size:15px;text-decoration:none;border-bottom:1.5px solid var(--accent)}
+
+/* timeline */
+.timeline{display:grid;border-top:1px solid var(--line)}
+.role{display:grid;gap:4px 32px;padding:26px 0;border-bottom:1px solid var(--line)}
+@media(min-width:780px){.role{grid-template-columns:200px 1fr}}
+.role .when{font-family:var(--mono);font-size:13px;color:var(--muted);padding-top:5px}
+.role .when .now{display:inline-block;background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:1px 8px;margin-left:6px;font-size:11px}
+.role .org{color:var(--muted);font-size:15px;margin-bottom:8px}
+.role ul{padding-left:18px;color:var(--muted);font-size:15.5px;display:grid;gap:4px}
+details.more-roles{margin-top:8px}
+details.more-roles summary{cursor:pointer;font-weight:600;padding:18px 0;list-style:none;display:flex;align-items:center;gap:8px}
+details.more-roles summary::-webkit-details-marker{display:none}
+details.more-roles summary::before{content:"+";display:grid;place-items:center;width:28px;height:28px;border-radius:50%;border:1px solid var(--line);color:var(--accent)}
+details.more-roles[open] summary::before{content:"–"}
+
+/* boards */
+.boards{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.boards span{font-family:var(--mono);font-size:14px;padding:8px 14px;border-radius:10px;background:var(--accent-soft)}
+
+/* corporate list */
+.corp{display:grid;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+@media(min-width:640px){.corp{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:960px){.corp{grid-template-columns:repeat(3,1fr)}}
+.corp div{background:var(--surface);padding:20px 22px}
+.corp b{font-family:var(--serif);font-size:19px;font-weight:600;display:block}
+.corp small{color:var(--muted);font-size:14.5px}
+.unis{display:flex;flex-wrap:wrap;gap:10px 28px;margin-top:28px}
+.unis span{font-family:var(--serif);font-size:clamp(18px,2.2vw,22px);color:var(--muted);font-weight:600}
+
+/* education */
+.edu{display:grid;gap:16px}
+@media(min-width:900px){.edu{grid-template-columns:repeat(3,1fr)}}
+.edu .card h3{font-size:20px}
+
+/* pubs */
+.pubs{list-style:none;counter-reset:p;border-top:1px solid var(--line)}
+.pubs li{counter-increment:p;display:grid;grid-template-columns:44px 1fr;gap:12px;padding:20px 0;border-bottom:1px solid var(--line)}
+.pubs li::before{content:counter(p,decimal-leading-zero);font-family:var(--mono);color:var(--accent);font-size:14px;padding-top:4px}
+.pubs b{font-family:var(--serif);font-weight:600;font-size:19px;display:block;line-height:1.35}
+.pubs small{color:var(--muted)}
+
+/* projects */
+.proj{display:grid;gap:12px}
+@media(min-width:640px){.proj{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:960px){.proj{grid-template-columns:repeat(3,1fr)}}
+.proj div{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px 20px;font-weight:500}
+.proj div small{display:block;color:var(--muted);font-weight:400;font-size:14px;margin-top:2px}
+
+/* chips */
+.chip-group+.chip-group{margin-top:28px}
+.chip-group h4{font-family:var(--mono);font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-bottom:12px;font-weight:500}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips span{padding:7px 15px;border-radius:999px;border:1px solid var(--line);background:var(--surface);font-size:15px}
+.chips.accent span{background:var(--accent-soft);border-color:transparent}
+
+.skills-grid{display:grid;gap:16px}
+@media(min-width:780px){.skills-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1100px){.skills-grid{grid-template-columns:repeat(3,1fr)}}
+.skill-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:22px}
+.skill-card h4{font-family:var(--serif);font-size:19px;font-weight:600;margin-bottom:12px}
+.skill-card .chips span{font-size:14px;padding:5px 12px;background:var(--bg)}
+.skill-card .chips.accent span{background:var(--accent-soft)}
+/* gallery */
+.gallery{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:12px;scrollbar-width:thin}
+.gallery img{flex:0 0 auto;width:280px;height:200px;object-fit:cover;border-radius:14px;scroll-snap-align:start;background:var(--line)}
+@media(min-width:720px){.gallery img{width:340px;height:240px}}
+
+/* featured talk */
+.talk{display:grid;gap:16px}
+@media(min-width:900px){.talk{grid-template-columns:1.4fr 1fr}}
+.talk .main{position:relative;border-radius:var(--radius);overflow:hidden}
+.talk .main img{width:100%;height:100%;object-fit:cover;aspect-ratio:3/2}
+.talk .main .over{position:absolute;inset:auto 0 0 0;padding:24px;background:linear-gradient(transparent,rgba(0,0,0,.8));color:#fff}
+.talk .main .over b{font-family:var(--serif);font-size:clamp(22px,3vw,30px);display:block;line-height:1.15}
+.talk .main .over span{font-size:14px;opacity:.85}
+.talk .side{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.talk .side img{width:100%;height:100%;object-fit:cover;border-radius:14px;aspect-ratio:1}
+.talk-meta{margin-top:20px;display:flex;flex-wrap:wrap;gap:8px}
+.talk-meta span{font-family:var(--mono);font-size:13px;padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface)}
+
+.venues{margin-top:28px;padding:24px;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface)}
+.venues p{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
+.venues div{display:flex;flex-wrap:wrap;gap:10px 26px}
+.venues span{font-family:var(--serif);font-weight:600;font-size:clamp(17px,2vw,21px)}
+.venues span.more{font-family:var(--sans);font-weight:500;font-size:15px;color:var(--accent);align-self:center}
+/* masonry gallery */
+.masonry{columns:1;column-gap:14px}
+@media(min-width:600px){.masonry{columns:2}}
+@media(min-width:960px){.masonry{columns:3}}
+.masonry figure{break-inside:avoid;margin:0 0 14px;position:relative;border-radius:14px;overflow:hidden;cursor:zoom-in;background:var(--line)}
+.masonry img{width:100%;height:auto;transition:transform .5s}
+.masonry figure:hover img{transform:scale(1.04)}
+.masonry figcaption{position:absolute;inset:auto 0 0 0;padding:28px 14px 12px;font-size:14px;color:#fff;background:linear-gradient(transparent,rgba(0,0,0,.75))}
+
+/* recognition */
+.recog{display:grid;gap:16px}
+@media(min-width:640px){.recog{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:960px){.recog{grid-template-columns:repeat(3,1fr)}}
+.recog figure{margin:0;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;cursor:zoom-in}
+.recog img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.recog figcaption{padding:16px 18px}
+.recog figcaption b{font-family:var(--serif);font-size:18px;font-weight:600;display:block;line-height:1.3}
+.recog figcaption small{color:var(--muted);font-size:14px}
+
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:100;background:rgba(10,8,6,.92);display:none;align-items:center;justify-content:center;padding:16px;flex-direction:column;gap:12px}
+.lb.open{display:flex}
+.lb img{max-width:100%;max-height:82vh;border-radius:10px;object-fit:contain}
+.lb p{color:#eee;font-size:15px;text-align:center;max-width:700px}
+.lb button{position:absolute;background:rgba(255,255,255,.12);color:#fff;border:none;width:46px;height:46px;border-radius:50%;font-size:22px;cursor:pointer}
+.lb .x{top:16px;right:16px}.lb .prev{left:12px;top:50%}.lb .next{right:12px;top:50%}
+
+.about-photo{margin-top:28px;width:100%;height:auto;aspect-ratio:4/3;object-position:center 30%;object-fit:cover;border-radius:var(--radius)}
+.caric{float:right;width:min(42%,220px);margin:0 0 12px 20px;border-radius:14px}
+
+/* contact */
+.contact{background:var(--ink);color:var(--bg);border-radius:28px;padding:clamp(32px,6vw,72px);display:grid;gap:40px}
+@media(min-width:900px){.contact{grid-template-columns:1fr 1fr}}
+.contact h2{color:var(--bg)}
+.contact p{opacity:.75;margin-top:16px}
+.contact .direct{margin-top:24px;display:grid;gap:6px;font-size:17px}
+.contact .direct a{text-decoration:none;border-bottom:1px solid color-mix(in srgb,var(--bg) 35%,transparent);width:fit-content}
+.socials{display:flex;gap:10px;margin-top:24px;flex-wrap:wrap}
+.socials a{border:1px solid color-mix(in srgb,var(--bg) 30%,transparent);padding:10px 18px;border-radius:999px;text-decoration:none;font-size:15px;font-weight:500}
+.socials a:hover{background:var(--bg);color:var(--ink)}
+form{display:grid;gap:12px}
+input,textarea{width:100%;font:inherit;font-size:16px;padding:14px 16px;border-radius:12px;border:1px solid color-mix(in srgb,var(--bg) 25%,transparent);background:transparent;color:var(--bg)}
+input::placeholder,textarea::placeholder{color:color-mix(in srgb,var(--bg) 55%,transparent)}
+input:focus,textarea:focus{outline:2px solid var(--accent);border-color:transparent}
+textarea{min-height:130px;resize:vertical}
+form button{background:var(--accent);color:var(--accent-ink);border:none;padding:15px;border-radius:12px;font:inherit;font-weight:600;cursor:pointer}
+.form-note{font-size:14px;min-height:20px}
+
+footer{padding:40px 0;color:var(--muted);font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav">
+  <div class="wrap">
+    <nav aria-label="Main">
+      <ul id="menu">
+        <li><a href="#top">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#talk">Talks</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#corporate">Corporate</a></li>
+        <li><a href="#gallery">Photos</a></li>
+        <li><a href="#recognition">Recognition</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button class="icon-btn" id="theme" aria-label="Toggle dark mode">◐</button></li>
+      </ul>
+    </nav>
+    <button class="icon-btn menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<main id="main">
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">Senior Data Scientist · Corporate Trainer</span>
+      <h1>Rithik Raj<br><em>Vaishya</em></h1>
+      <p class="lead">Turning Data Science, Data Analytics, AI, Machine Learning and Generative AI into job-ready capability — for teams at IBM, Microsoft, Siemens, Accenture and HDFC Bank, and for classrooms at IIT Bombay, IIT Delhi and IIT Madras.</p>
+      <p class="creds"><span>Member, Board of Studies — SECE · KPG · MU · TSI · VET · KJSIT · NHITM</span><span>Member, Board of Examination — TransStadia Institute (TSI)</span></p>
+      <div class="cta">
+        <a class="btn primary" href="#contact">Book a training →</a>
+        <a class="btn" href="https://www.linkedin.com/in/rithikrajvaishya" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://scholar.google.com/citations?user=j0Pup7MAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>
+        <a class="btn" href="resume.pdf" download="Rithik_Raj_Vaishya_Resume.pdf">Download résumé ↓</a>
+      </div>
+    </div>
+    <div class="portrait">
+      <img src="assets/portrait.jpg" alt="Portrait of Rithik Raj Vaishya" width="380" height="475" fetchpriority="high">
+          </div>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="stats reveal">
+    <div class="stat"><b>50,000+</b><span>Professionals &amp; students upskilled</span></div>
+    <div class="stat"><b>11+</b><span>Years in tech education</span></div>
+    <div class="stat"><b>450+</b><span>Workshops delivered</span></div>
+    <div class="stat"><b>100+</b><span>Faculty Development Programs</span></div>
+    <div class="stat"><b>75+</b><span>Corporate clients</span></div>
+    <div class="stat"><b>7 + 1</b><span>Boards of Studies · Board of Examination (TSI)</span></div>
+  </div>
+</div>
+
+<div class="trusted">
+  <p>Trained teams at</p>
+  <div class="marquee" aria-label="Corporate clients">
+    <div class="track">
+      <span>Microsoft</span><span>Siemens</span><span>Accenture</span><span>Infosys</span><span>IBM</span><span>TATA Power</span><span>Birla White</span><span>HDFC Bank</span><span>Axis Bank</span><span>Vodafone</span><span>Jio</span><span>RedBus</span><span>Manipal Cigna</span><span>Birlasoft</span><span>Kalpataru</span><span>Sterling Cinemas</span><span>Emeritus</span><span>Simplilearn</span><span>Imarticus Learning</span><span>ITVedant</span><span>IMS Proschool</span><span>Thiran360i</span><span>Techfer Global</span><span>Texum Buildtech</span>
+      <span aria-hidden="true">Microsoft</span><span aria-hidden="true">Siemens</span><span aria-hidden="true">Accenture</span><span aria-hidden="true">Infosys</span><span aria-hidden="true">IBM</span><span aria-hidden="true">TATA Power</span><span aria-hidden="true">Birla White</span><span aria-hidden="true">HDFC Bank</span><span aria-hidden="true">Axis Bank</span><span aria-hidden="true">Vodafone</span><span aria-hidden="true">Jio</span><span aria-hidden="true">RedBus</span><span aria-hidden="true">Manipal Cigna</span><span aria-hidden="true">Birlasoft</span><span aria-hidden="true">Kalpataru</span><span aria-hidden="true">Sterling Cinemas</span><span aria-hidden="true">Emeritus</span><span aria-hidden="true">Simplilearn</span><span aria-hidden="true">Imarticus Learning</span><span aria-hidden="true">ITVedant</span><span aria-hidden="true">IMS Proschool</span><span aria-hidden="true">Thiran360i</span><span aria-hidden="true">Techfer Global</span><span aria-hidden="true">Texum Buildtech</span>
+    </div>
+  </div>
+</div>
+
+<!-- ============ ABOUT ============ -->
+<section id="about">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="num">01</span><h2>About</h2></div>
+    <div class="about-grid reveal">
+      <div><p class="big">A data scientist who teaches, and a teacher who ships. For over a decade I've turned complex AI and data concepts into skills people use at work the next day.</p>
+        <img class="about-photo" src="assets/lecture-grey.jpg" alt="Rithik delivering a workshop" loading="lazy"></div>
+      <div>
+        <img class="caric" src="assets/caricature.jpg" alt="Illustrated caricature of Rithik teaching data science" loading="lazy" width="220" height="147">
+        <p>I work across Generative AI, Machine Learning, Deep Learning, NLP, Data Science and Analytics. As a Senior Data Scientist at PNT Robotics I've built transformer-based NLP and Visual Question Answering systems and taken 7+ projects from prototype to production.</p>
+        <p>As a trainer and curriculum designer, I've built certification programs for Simplilearn and Emeritus, taught 40+ batches end-to-end at Imarticus and ITVedant, and delivered 25+ programs as an IBM Innovation Centre for Education professional.</p>
+        <p>I also shape what gets taught: I sit on the Board of Studies at seven institutions and the Board of Examination at TransStadia Institute.</p>
+        <div class="boards" aria-label="Boards of Studies">
+          <span>SECE</span><span>KPG</span><span>MU</span><span>TSI</span><span>VET</span><span>KJSIT</span><span>NHITM</span><span>BoE · TSI</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURED TALK ============ -->
+<section class="tight" id="talk">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="num">★</span><h2>Featured talks</h2><p>Invited speaker and guest lecturer at IITs, NITs, IIITs, universities and leading engineering &amp; technology colleges.</p></div>
+    <div class="talk reveal">
+      <figure class="main" data-lb data-cap="Beyond Black-Box AI — NHITM Thane, 6 October 2026"><img src="assets/talk-hero.jpg" alt="Rithik speaking at NHITM Thane in front of the Beyond Black-Box AI slide" loading="lazy" width="1400" height="933">
+        <div class="over"><b>Beyond Black-Box AI</b><span>Explainability and Next-Generation Intelligent Systems · 6 Oct 2026</span></div></figure>
+      <div class="side">
+        <img src="assets/talk-hall.jpg" alt="Full lecture hall during the NHITM talk" loading="lazy" data-lb data-cap="A full house at NHITM, Thane">
+        <img src="assets/talk-podium.jpg" alt="Rithik at the NHITM podium" loading="lazy" data-lb data-cap="At the podium, NHITM Thane">
+        <img src="assets/talk-audience.jpg" alt="Rithik taking questions among the students" loading="lazy" data-lb data-cap="Interactive Q&amp;A with students">
+        <img src="assets/talk-award.jpg" alt="Rithik receiving a memento from NHITM" loading="lazy" data-lb data-cap="Felicitated by NHITM">
+      </div>
+    </div>
+    <p class="reveal" style="margin-top:14px;color:var(--muted);font-size:15px">Latest: <b style="color:var(--ink)">Beyond Black-Box AI</b> — expert session for the AI &amp; Data Science Student Association and Coding &amp; Innovation Club, New Horizon Institute of Technology &amp; Management, Thane.</p>
+    <div class="venues reveal">
+      <p>Spoken at</p>
+      <div><span>IIT Bombay</span><span>IIT Delhi</span><span>IIT Madras</span><span>University of Mumbai</span><span>ATLAS SkillTech University</span><span>VIT University</span><span>New Horizon (NHITM)</span><span>PVGCOET</span><span>Thakur College</span><span>NIT Bhopal</span><span>Sri Eshwar College of Engineering</span><span>SIES GST</span><span>AURO University</span><span class="more">+ various NITs, IIITs &amp; engineering colleges</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE ============ -->
+<section class="tight" id="experience">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="num">02</span><h2>Experience</h2><p>Industry, corporate training and academia — running in parallel since 2015.</p></div>
+    <div class="timeline reveal">
+
+      <div class="role"><div class="when">2022 – Present<span class="now">Now</span></div><div>
+        <h3>Senior Data Scientist</h3><div class="org">PNT Robotics &amp; Automation Solution · Mumbai</div>
+        <ul><li>Built transformer-based NLP models for contextual query understanding in technical and engineering domains.</li>
+            <li>Designed Visual Question Answering systems that retrieve answers from technical diagrams and documentation.</li>
+            <li>Owned the full lifecycle on 7+ real-world projects — problem framing to deployment and monitoring.</li></ul></div></div>
+
+      <div class="role"><div class="when">2025 – Present<span class="now">Now</span></div><div>
+        <h3>Corporate Trainer &amp; Subject Matter Expert</h3><div class="org">Simplilearn · Global</div>
+        <ul><li>Lead certification programs end-to-end across Python, Statistics, Data Science, ML, Deep Learning and Generative AI.</li>
+            <li>Conducted training for <strong style="color:var(--ink);font-family:inherit;font-size:inherit">Microsoft, Birla White, 5 IITs, Purdue University</strong>, University at Buffalo and more.</li></ul></div></div>
+
+      <div class="role"><div class="when">2023 – Present<span class="now">Now</span></div><div>
+        <h3>Senior Corporate Trainer</h3><div class="org">Imarticus Learning · Mumbai</div>
+        <ul><li>Delivered full Data Science training across 15+ batches — Python, Statistics, SQL, Excel, ML and Deep Learning.</li>
+            <li>Mentored learners through capstones and interview preparation.</li></ul></div></div>
+
+      <div class="role"><div class="when">2021 – Present<span class="now">Now</span></div><div>
+        <h3>Subject Matter Expert</h3><div class="org">IBM Innovation Centre for Education · Pan-India</div>
+        <ul><li>Delivered 25+ programs in Predictive, Social Media and Web Analytics, ML, Deep Learning and Time Series Forecasting.</li>
+            <li>Guided research projects, papers and production-ready ML practices.</li></ul></div></div>
+
+      <div class="role"><div class="when">2025 – Present<span class="now">Now</span></div><div>
+        <h3>Visiting Faculty</h3><div class="org">ATLAS SkillTech University · TransStadia Institute · International Institute of Sports &amp; Management</div>
+        <ul><li>Big Data for Finance for MBA students at ATLAS SkillTech University.</li>
+            <li>Data Science &amp; Analytics, research supervision and Board of Examination at TransStadia Institute.</li>
+            <li>Sports Analytics and IT for sports management at IISM.</li></ul></div></div>
+
+      <div class="role"><div class="when">Dec 2025 – Apr 2026</div><div>
+        <h3>Consultant &amp; Content Auditor</h3><div class="org">Emeritus · Global</div>
+        <ul><li>Reviewed AI and Data Science curricula for certification programs with Purdue, UC Berkeley, University of Melbourne, Imperial College London and IITM Pravartak.</li>
+            <li>Designed Generative AI pathways (LLMs, prompt engineering, RAG) and validated assessments and capstones.</li></ul></div></div>
+
+      <details class="more-roles">
+        <summary>Show earlier roles (2015 – 2025)</summary>
+        <div class="timeline">
+          <div class="role"><div class="when">2023 – 2025</div><div><h3>Visiting Faculty</h3><div class="org">ITVedant Education · Thane</div>
+            <ul><li>Handled 25+ Data Science &amp; AI batches; designed curricula for OpenCV, Time Series, NLP and Deep Learning.</li></ul></div></div>
+          <div class="role"><div class="when">2025</div><div><h3>Visiting Faculty &amp; Trainer</h3><div class="org">IMS Proschool · Mumbai</div>
+            <ul><li>AI for Management and Finance professionals; GenAI for all.</li></ul></div></div>
+          <div class="role"><div class="when">2025</div><div><h3>Senior Trainer</h3><div class="org">ETL Hive · Mumbai</div>
+            <ul><li>Bootcamps on Data Science, ML, Deep Learning and Generative AI.</li></ul></div></div>
+          <div class="role"><div class="when">2024 – 2025</div><div><h3>Subject Matter Expert</h3><div class="org">Edusprint · Bengaluru</div>
+            <ul><li>AI for Management — decision-making, automation and strategy.</li></ul></div></div>
+          <div class="role"><div class="when">2024</div><div><h3>Visiting Faculty &amp; Trainer</h3><div class="org">Sri Eshwar College of Engineering · Coimbatore</div>
+            <ul><li>Training across 5 engineering departments; mentored research, hackathons and patent-oriented projects.</li></ul></div></div>
+          <div class="role"><div class="when">2023 – 2024</div><div><h3>CTO &amp; Senior Corporate Trainer</h3><div class="org">PNT Academy</div>
+            <ul><li>Led technology and corporate training delivery.</li></ul></div></div>
+          <div class="role"><div class="when">2022 – 2024</div><div><h3>Subject Matter Expert</h3><div class="org">Quantum Learnings · Microsoft programs</div>
+            <ul><li>Designed hands-on Data Science, ML and AI programs with real-world datasets and projects.</li></ul></div></div>
+          <div class="role"><div class="when">2022 – 2023</div><div><h3>Subject Matter Expert</h3><div class="org">Board Infinity · Mumbai</div>
+            <ul><li>Structured technical training programs tailored to client needs.</li></ul></div></div>
+          <div class="role"><div class="when">2021 – 2022</div><div><h3>Freelance Trainer</h3><div class="org">TechTrunk Ventures</div>
+            <ul><li>Technical training programs.</li></ul></div></div>
+          <div class="role"><div class="when">2021 – 2022</div><div><h3>Senior Technical Trainer</h3><div class="org">PNT Robotics &amp; Automation Solution</div>
+            <ul><li>Instructor-led training in Data Science, ML, AI and Python; built learning paths and lab exercises.</li></ul></div></div>
+          <div class="role"><div class="when">2020 – 2023</div><div><h3>Senior Trainer</h3><div class="org">Techradiance · Pan-India</div>
+            <ul><li>Designed syllabi for IoT, Robotics, ML, Data Science and AI; FDPs, STTPs and ATAL programs nationwide.</li></ul></div></div>
+          <div class="role"><div class="when">2015 – 2021</div><div><h3>Content Developer → Senior Technical Trainer</h3><div class="org">Build My Project · Mumbai</div>
+            <ul><li>Grew from content developer (2015) to technical trainer (2017) to senior technical trainer (2018).</li></ul></div></div>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CORPORATE ============ -->
+<section class="tight" id="corporate">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="num">03</span><h2>Corporate trainings</h2><p>Programs tailored to each team's domain — from "AI for All" for leadership to hands-on predictive modelling for analysts.</p></div>
+    <div class="corp reveal">
+      <div><b>Siemens</b><small>Data Science Scholarship Program</small></div>
+      <div><b>TATA Power</b><small>AI &amp; Data Analytics in energy management (via Emeritus)</small></div>
+      <div><b>Accenture</b><small>Machine Learning from scratch</small></div>
+      <div><b>Infosys</b><small>Data Science for Freshers</small></div>
+      <div><b>HDFC Bank</b><small>Python for all, predictive modelling &amp; customer intelligence</small></div>
+      <div><b>Axis Bank</b><small>AI for Automation</small></div>
+      <div><b>Vodafone</b><small>Data Science for telecom optimisation, Prompt Engineering</small></div>
+      <div><b>Jio</b><small>Deep Learning &amp; Big Data Analytics</small></div>
+      <div><b>RedBus</b><small>Python, ML &amp; predictive analytics for demand forecasting</small></div>
+      <div><b>Manipal Cigna</b><small>AI for All, healthcare data analytics &amp; visualisation</small></div>
+      <div><b>Birlasoft</b><small>AI for All</small></div>
+      <div><b>Kalpataru</b><small>AI &amp; data-driven automation in real estate</small></div>
+      <div><b>Sterling Cinemas</b><small>Customer analytics &amp; digital transformation</small></div>
+      <div><b>Thiran360i</b><small>Applied AI for business solutions</small></div>
+      <div><b>Techfer Global</b><small>Python, AI &amp; ML for all</small></div>
+      <div><b>Texum Buildtech</b><small>AI for business development, Python for technical teams</small></div>
+      <div><b>Microsoft</b><small>AI programs &amp; certifications (via Simplilearn &amp; Quantum Learnings)</small></div>
+      <div><b>Birla White</b><small>Corporate AI &amp; data training (via Simplilearn)</small></div>
+      <div><b>Emeritus</b><small>Consultant &amp; content auditor — global university programs</small></div>
+      <div><b>Imarticus Learning</b><small>Industry-integrated AI &amp; ML programs</small></div>
+      <div><b>ITVedant</b><small>Advanced curriculum design &amp; technical mentoring</small></div>
+      <div><b>IMS Proschool</b><small>AI for management &amp; finance professionals, GenAI for all</small></div>
+      <div><b>IBM ICE</b><small>Predictive, social media &amp; web analytics, ML, DL, time series</small></div>
+      <div style="background:var(--accent-soft)"><b>Your team next?</b><small><a href="#contact">Plan a corporate program →</a></small></div>
+    </div>
+    <p class="reveal" style="margin-top:36px;font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)">Programs designed or reviewed for</p>
+    <div class="unis reveal">
+      <span>5 IITs</span><span>Purdue University</span><span>UC Berkeley</span><span>Imperial College London</span><span>University of Melbourne</span><span>University at Buffalo</span><span>IIT Delhi</span><span>IIT Kanpur</span><span>IITM Pravartak</span><span>Microsoft</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ACADEMIC TRAINING ============ -->
+<section class="tight" id="academic">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="num">04</span><h2>Academic training</h2></div>
+    <div class="cards reveal">
+      <article class="card"><span class="tag">450+</span><h3>Workshops</h3><p>Pan-India, including IIT Bombay, IIT Kanpur and NITs, on Data Science, ML, Deep Learning, IoT and Robotics.</p></article>
+      <article class="card"><span class="tag">100+</span><h3>FDPs &amp; SME sessions</h3><p>5-day Faculty Development Programs on ML (50+), AI (30+) and IoT (25+), plus 25+ SME engagements.</p></article>
+      <article class="card"><span class="tag">50+ · 50+</span><h3>STTPs &amp; ATAL programs</h3><p>3–7 day STTPs at NIT and MIT, and AICTE ATAL programs on AI, ML, Data Science and Blockchain.</p></article>
+      <article class="card"><span class="tag">150+</span><h3>Webinars &amp; seminars</h3><p>150+ webinars and 150+ online seminars on Python, AI, ML, Data Science and Cyber Security.</p></article>
+      <article class="card"><span class="tag">Guest lectures</span><h3>IITs, NITs &amp; IIITs</h3><p>Guest lectures at various IITs, NITs, IIITs and engineering &amp; technology colleges across India.</p></article>
+      <article class="card"><span class="tag">Project guide</span><h3>Student mentorship</h3><p>Final-year project guide at AURO University, Somaiya, GNU, Lokmanya Tilak and Bharati Vidyapeeth.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="tight" id="gallery">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="num">05</span><h2>Photos</h2><p>Classrooms, labs, boardrooms and lecture halls — a glimpse of the people behind the numbers.</p></div>
+    <div class="masonry">
+      <figure class="reveal" data-lb data-cap="IBM ICE batch — Data Science program"><img src="assets/ibm-batch.jpg" alt="IBM ICE batch — Data Science program" loading="lazy"><figcaption>IBM ICE batch — Data Science program</figcaption></figure>
+      <figure class="reveal" data-lb data-cap="Session at AURO University"><img src="assets/auro.jpg" alt="Session at AURO University" loading="lazy"><figcaption>Session at AURO University</figcaption></figure>
+      <figure class="reveal" data-lb data-cap="Data Science batch at Imarticus Learning"><img src="assets/imarticus.jpg" alt="Data Science batch at Imarticus Learning" loading="lazy"><figcaption>Data Science batch at Imarticus Learning</figcaption></figure>
+      <figure class="reveal" data-lb data-cap="Packed lecture hall for an AI workshop"><img src="assets/big-hall.jpg" alt="Packed lecture hall for an AI workshop" loading="lazy"><figcaption>Packed lecture hall for an AI workshop</figcaption></figure>
+      <figure class="reveal" data-lb data-cap="Corporate training — leadership cohort"><img src="assets/corporate-boardroom.jpg" alt="Corporate training — leadership cohort" loading="lazy"><figcaption>Corporate training — leadership cohort</figcaption></figure>
+      <figure class="reveal" data-lb data-cap="Expert lecture on AI &amp; ML"><img src="assets/hall-flag.jpg" alt="Expert lecture on AI &amp; ML" loading="lazy"><figcaption>Expert lecture on AI &amp; ML</figcaption></figure>
+      <figure class="reveal" data-lb data-cap="Centre of Excellence in Sports Science &amp; Sports Management, TransStadia"><img src="assets/transstadia.jpg" alt="Centre of Excellence in Sports Science &amp; Sports Management, TransStadia" loading="lazy"><figcaption>Centre of Excellence in Sports Science &amp; Sports Management, TransStadia</figcaption></figure>
+      <figure class="reveal" data-lb data-cap="Hands-on ML lab session"><img src="assets/ibm-lecture.jpg" alt="Hands-on ML lab session" loading="lazy"><figcaption>Hands-on ML lab session</figcaption></figure>
+      <figure class="reveal" data-lb data-cap="Celebrating the end of a cohort"><img src="assets/batch-classroom.jpg" alt="Celebrating the end of a cohort" loading="lazy"><figcaption>Celebrating the end of a cohort</figcaption></figure>
+      <figure class="reveal" data-lb data-cap="Corporate session — business teams"><img src="assets/corporate-team.jpg" alt="Corporate session — business teams" loading="lazy"><figcaption>Corporate session — business teams</figcaption></figure>
+      <figure class="reveal" data-lb data-cap="IoT &amp; ML workshop"><img src="assets/lecture-grey.jpg" alt="IoT &amp; ML workshop" loading="lazy"><figcaption>IoT &amp; ML workshop</figcaption></figure>
+      <figure class="reveal" data-lb data-cap="Workshop batch, Mumbai"><img src="assets/batch-trees.jpg" alt="Workshop batch, Mumbai" loading="lazy"><figcaption>Workshop batch, Mumbai</figcaption></figure>
+      <figure class="reveal" data-lb data-cap="Deep learning batch"><img src="assets/ibm-lab-group.jpg" alt="Deep learning batch" loading="lazy"><figcaption>Deep learning batch</figcaption></figure>
+      <figure class="reveal" data-lb data-cap="Guest lecture"><img src="assets/lecture-white.jpg" alt="Guest lecture" loading="lazy"><figcaption>Guest lecture</figcaption></figure>
+      <figure class="reveal" data-lb data-cap="Student cohort"><img src="assets/batch-outdoor.jpg" alt="Student cohort" loading="lazy"><figcaption>Student cohort</figcaption></figure>
+      <figure class="reveal" data-lb data-cap="Professional program cohort"><img src="assets/batch-purple.jpg" alt="Professional program cohort" loading="lazy"><figcaption>Professional program cohort</figcaption></figure>
+      <figure class="reveal" data-lb data-cap="Faculty &amp; student training"><img src="assets/batch-campus.jpg" alt="Faculty &amp; student training" loading="lazy"><figcaption>Faculty &amp; student training</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RECOGNITION ============ -->
+<section class="tight" id="recognition">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="num">06</span><h2>Recognition &amp; partnerships</h2><p>Appreciation, felicitations and institutional engagements.</p></div>
+    <div class="recog reveal">
+      <figure data-lb data-cap="Felicitated by NHITM, Thane — Beyond Black-Box AI, Oct 2026"><img src="assets/talk-award.jpg" alt="Receiving a memento at NHITM" loading="lazy"><figcaption><b>Felicitation, NHITM Thane</b><small>Expert talk on explainable AI · Oct 2026</small></figcaption></figure>
+      <figure data-lb data-cap="Certificate of appreciation, featured by Connexis — Redefining Education"><img src="assets/connexis.jpg" alt="Receiving a certificate of appreciation" loading="lazy" style="object-position:top"><figcaption><b>Certificate of appreciation</b><small>Featured by Connexis — Redefining Education</small></figcaption></figure>
+      <figure data-lb data-cap="SIES Graduate School of Technology, Nerul — 10 September 2025"><img src="assets/sies.jpg" alt="At SIES Graduate School of Technology, Nerul" loading="lazy"><figcaption><b>SIES Graduate School of Technology</b><small>Nerul, Navi Mumbai · Sept 2025</small></figcaption></figure>
+      <figure data-lb data-cap="Institutional partnership signing"><img src="assets/mou.jpg" alt="Signing an institutional agreement" loading="lazy"><figcaption><b>Institutional partnership</b><small>Agreement signing with college leadership</small></figcaption></figure>
+      <figure data-lb data-cap="Training at Sri Eshwar College of Engineering, Coimbatore — Nov 2024"><img src="assets/sri-eshwar.jpg" alt="Training session at Sri Eshwar College of Engineering" loading="lazy"><figcaption><b>Sri Eshwar College of Engineering</b><small>Coimbatore · Nov 2024</small></figcaption></figure>
+      <figure data-lb data-cap="Memento from faculty after a training program"><img src="assets/memento.jpg" alt="Receiving a memento from faculty" loading="lazy"><figcaption><b>Faculty appreciation</b><small>Memento after a training program</small></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EDUCATION ============ -->
+<section class="tight" id="education">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="num">07</span><h2>Education</h2></div>
+    <div class="edu reveal">
+      <article class="card"><span class="tag">Doctorate</span><h3>Doctor of Business Administration</h3><p>Leadership &amp; AI Strategy<br>ESGCI (École Supérieure de Gestion et Commerce International), Paris</p></article>
+      <article class="card"><span class="tag">Master's</span><h3>Master in Data Science</h3><p>Vellore Institute of Technology, Vellore</p></article>
+      <article class="card"><span class="tag">Bachelor's</span><h3>Bachelor in Information Technology (IT)</h3><p>Vidyalankar School of Information Technology, Mumbai</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PUBLICATIONS ============ -->
+<section class="tight" id="publications">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="num">08</span><h2>Research &amp; publications</h2><p>Full list on <a href="https://scholar.google.com/citations?user=j0Pup7MAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar ↗</a></p></div>
+    <ol class="pubs reveal">
+      <li><div><b>Bridging the Perception Gap: Multimodal AI Assistant for RAG-Driven Storytelling and Multisensory Learning</b><small>Generative AI · RAG · Multimodal learning</small></div></li>
+      <li><div><b>AIML-Based Auto Assessment and Evaluation Platform for EdTech Systems</b><small>Model automation &amp; evaluation</small></div></li>
+      <li><div><b>AI Healthcare Chatbot — DiabyFriend.AI</b><small>Avishkar, University of Mumbai</small></div></li>
+      <li><div><b>Text Summarizer — On the Go</b><small>VIT Journal</small></div></li>
+      <li><div><b>Machine Vision — The Innovation</b><small>VIT Journal</small></div></li>
+      <li><div><b>5G — The Speed You Need</b><small>V-Search Journal</small></div></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="tight" id="projects">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="num">09</span><h2>Selected projects</h2></div>
+    <div class="proj reveal">
+      <div>Visual Question Answering<small>Transformers · multimodal retrieval</small></div>
+      <div>PDF Document Q&amp;A<small>LLMs · RAG</small></div>
+      <div>Memory-based LangChain Chatbot<small>LangChain · conversational AI</small></div>
+      <div>DiabyFriend.AI<small>AI healthcare chatbot for diabetes</small></div>
+      <div>Digital Twin — Smart Sports Assistant<small>Sports analytics · AI</small></div>
+      <div>Applicant Tracking System<small>NLP · résumé parsing</small></div>
+      <div>Smart Notes Generator<small>Generative AI</small></div>
+      <div>Multilingual Translation<small>Seq2Seq · transformers</small></div>
+      <div>Domain-Specific Text Generation<small>LLM fine-tuning</small></div>
+      <div>Stock Market Forecasting<small>Time series · deep learning</small></div>
+      <div>Sentiment Analysis<small>NLP · text classification</small></div>
+      <div>Text Summarizer — On the Go<small>NLP</small></div>
+      <div>AQI Analysis &amp; Forecasting<small>Time series</small></div>
+      <div>Face Mask Detection<small>Computer vision</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="tight" id="skills">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="num">10</span><h2>Skills &amp; tools</h2></div>
+    <div class="skills-grid reveal">
+      <div class="skill-card"><h4>Generative AI &amp; LLMs</h4><div class="chips accent"><span>Large Language Models</span><span>GPT</span><span>Llama</span><span>Gemini</span><span>Prompt Engineering</span><span>Retrieval-Augmented Generation (RAG)</span><span>LangChain</span><span>Hugging Face</span><span>OpenAI API</span><span>Google AI Studio</span><span>Embeddings</span><span>Conversational AI &amp; Chatbots</span><span>Domain-specific Text Generation</span><span>Multimodal AI</span></div></div>
+      <div class="skill-card"><h4>Deep Learning</h4><div class="chips"><span>ANN</span><span>CNN</span><span>RNN</span><span>LSTM</span><span>Seq2Seq</span><span>Autoencoders</span><span>GANs (Generative Adversarial Networks)</span><span>Transformers</span><span>Transfer Learning</span><span>TensorFlow</span><span>Keras</span><span>TensorBoard</span></div></div>
+      <div class="skill-card"><h4>Natural Language Processing</h4><div class="chips"><span>Tokenization</span><span>Stemming &amp; Lemmatization</span><span>Word Embeddings</span><span>Sequence Models</span><span>Sentiment Analysis</span><span>Text Summarization</span><span>Machine Translation</span><span>Question Answering</span><span>Visual Question Answering</span></div></div>
+      <div class="skill-card"><h4>Computer Vision</h4><div class="chips"><span>OpenCV</span><span>Image Processing</span><span>Video Processing</span><span>Image Classification</span><span>Object Detection</span><span>Machine Vision</span></div></div>
+      <div class="skill-card"><h4>Machine Learning</h4><div class="chips"><span>Supervised Learning</span><span>Regression</span><span>Classification</span><span>Unsupervised Learning</span><span>Clustering</span><span>Dimensionality Reduction</span><span>Association Rules</span><span>Feature Engineering</span><span>Model Tuning &amp; Evaluation</span><span>scikit-learn</span></div></div>
+      <div class="skill-card"><h4>Time Series Forecasting</h4><div class="chips"><span>ARIMA</span><span>SARIMA</span><span>Prophet</span><span>DeepAR</span><span>Temporal Fusion Transformer</span><span>Seq2Seq Forecasting</span><span>Demand Forecasting</span></div></div>
+      <div class="skill-card"><h4>Statistics &amp; Probability</h4><div class="chips"><span>Descriptive Statistics</span><span>Probability</span><span>Hypothesis Testing</span><span>Statistical Inference</span><span>Sampling</span><span>Regression Analysis</span><span>Statistical Modelling</span></div></div>
+      <div class="skill-card"><h4>Data Analytics &amp; BI</h4><div class="chips"><span>RFM Analysis</span><span>Customer Segmentation</span><span>Power BI</span><span>Tableau</span><span>Excel for Analytics</span><span>jamovi</span><span>Dashboards</span><span>Data Storytelling</span><span>Predictive Analytics</span><span>Social Media Analytics</span><span>Web Analytics</span><span>Sports Analytics</span><span>Business Intelligence</span></div></div>
+      <div class="skill-card"><h4>Python Data Stack</h4><div class="chips"><span>NumPy</span><span>pandas</span><span>SciPy</span><span>Statsmodels</span><span>scikit-learn</span><span>XGBoost</span><span>LightGBM</span><span>Matplotlib</span><span>Seaborn</span><span>Plotly</span><span>NLTK</span><span>spaCy</span><span>OpenCV</span><span>Pillow</span><span>BeautifulSoup</span><span>Streamlit</span><span>Flask</span><span>Jupyter</span><span>EDA</span><span>Data Cleaning &amp; Wrangling</span><span>Data Visualization</span></div></div>
+      <div class="skill-card"><h4>Big Data</h4><div class="chips"><span>Hadoop</span><span>Spark</span><span>Hive</span><span>Pig</span><span>Big Data for Finance</span></div></div>
+      <div class="skill-card"><h4>MLOps &amp; Deployment</h4><div class="chips"><span>End-to-end ML Lifecycle</span><span>Model Packaging</span><span>Inference Pipelines</span><span>Performance Monitoring</span><span>Production-ready ML</span></div></div>
+      <div class="skill-card"><h4>Languages &amp; Cloud</h4><div class="chips"><span>Python</span><span>SQL</span><span>R</span><span>C</span><span>C++</span><span>Embedded C</span><span>Java</span><span>MATLAB</span><span>AWS</span><span>Google Cloud (GCP)</span></div></div>
+      <div class="skill-card"><h4>IDEs &amp; Tools</h4><div class="chips"><span>Jupyter Notebook</span><span>Google Colab</span><span>VS Code</span><span>PyCharm</span><span>Spyder</span><span>Visual Studio</span><span>NetBeans</span></div></div>
+      <div class="skill-card"><h4>IoT &amp; Robotics</h4><div class="chips"><span>Arduino</span><span>Raspberry Pi</span><span>ThingSpeak</span><span>Embedded Systems</span><span>Robotics</span></div></div>
+      <div class="skill-card"><h4>Training &amp; Delivery</h4><div class="chips"><span>Curriculum Design</span><span>Learning Pathways</span><span>Assessment Design</span><span>Capstone Mentoring</span><span>Research Supervision</span><span>Agile</span><span>Lean</span><span>Waterfall</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="tight" id="contact">
+  <div class="wrap">
+    <div class="contact reveal">
+      <div>
+        <span class="eyebrow">Let's learn together</span>
+        <h2 style="margin-top:12px">Planning a corporate program, FDP or workshop?</h2>
+        <p>Tell me about your team or institution and what you'd like to cover. I'll reply within two working days.</p>
+        <div class="direct">
+          <a href="mailto:rithikrajvaishy2@gmail.com">rithikrajvaishy2@gmail.com</a>
+          <a href="tel:+918291659619">+91 82916 59619</a>
+          <a href="https://wa.me/918291659619?text=Hi%20Rithik%2C%20I%27d%20like%20to%20discuss%20a%20training%20program." target="_blank" rel="noopener">WhatsApp me ↗</a>
+        </div>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/rithikrajvaishya" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="https://scholar.google.com/citations?user=j0Pup7MAAAAJ&amp;hl=en" target="_blank" rel="noopener">Scholar ↗</a>
+          <a href="https://github.com/RithikRaj129" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="resume.pdf" download="Rithik_Raj_Vaishya_Resume.pdf">Résumé ↓</a>
+        </div>
+      </div>
+      <!-- Replace YOUR_FORM_ID with your free Formspree ID (see README) -->
+      <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <input name="name" placeholder="Your name" required autocomplete="name">
+        <input name="email" type="email" placeholder="Email" required autocomplete="email">
+        <input name="organisation" placeholder="Company / institution" autocomplete="organization">
+        <textarea name="message" placeholder="What would you like to train on?" required></textarea>
+        <button type="submit">Send message</button>
+        <div class="form-note" id="formNote" role="status"></div>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <button class="x" aria-label="Close">✕</button><button class="prev" aria-label="Previous">‹</button><button class="next" aria-label="Next">›</button>
+  <img alt=""><p></p>
+</div>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="yr"></span> Rithik Raj Vaishya · Mumbai, India</span>
+    <a href="#top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script>
+const menu=document.getElementById('menu'),mb=document.getElementById('menuBtn');
+mb.addEventListener('click',()=>{const o=menu.classList.toggle('open');mb.setAttribute('aria-expanded',o);mb.textContent=o?'✕':'☰'});
+menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{menu.classList.remove('open');mb.textContent='☰'}));
+
+const root=document.documentElement;
+try{const t=localStorage.getItem('theme');if(t)root.dataset.theme=t}catch(e){}
+document.getElementById('theme').addEventListener('click',()=>{
+  const dark=root.dataset.theme?root.dataset.theme==='dark':matchMedia('(prefers-color-scheme:dark)').matches;
+  root.dataset.theme=dark?'light':'dark';
+  try{localStorage.setItem('theme',root.dataset.theme)}catch(e){}
+});
+
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.08});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+const f=document.getElementById('contactForm'),note=document.getElementById('formNote');
+f.addEventListener('submit',async e=>{
+  e.preventDefault();
+  if(f.action.includes('YOUR_FORM_ID')){window.location.href='mailto:rithikrajvaishy2@gmail.com?subject='+encodeURIComponent('Training enquiry from '+(f.elements.name.value||'website'))+'&body='+encodeURIComponent(f.elements.message.value+'\n\n'+(f.elements.organisation.value||''));return}
+  note.textContent='Sending…';
+  try{
+    const r=await fetch(f.action,{method:'POST',body:new FormData(f),headers:{Accept:'application/json'}});
+    note.textContent=r.ok?'Thanks! I\'ll be in touch soon.':'Something went wrong — please email me directly.';
+    if(r.ok)f.reset();
+  }catch(err){note.textContent='Network error — please email me directly.'}
+});
+// lightbox
+const items=[...document.querySelectorAll('[data-lb]')],lb=document.getElementById('lb'),lbImg=lb.querySelector('img'),lbCap=lb.querySelector('p');let cur=0;
+function show(i){cur=(i+items.length)%items.length;const el=items[cur],im=el.tagName==='IMG'?el:el.querySelector('img');lbImg.src=im.src;lbImg.alt=im.alt;lbCap.textContent=el.dataset.cap||im.alt;lb.classList.add('open');document.body.style.overflow='hidden'}
+function hide(){lb.classList.remove('open');document.body.style.overflow=''}
+items.forEach((el,i)=>el.addEventListener('click',()=>show(i)));
+lb.querySelector('.x').onclick=hide;lb.querySelector('.prev').onclick=e=>{e.stopPropagation();show(cur-1)};lb.querySelector('.next').onclick=e=>{e.stopPropagation();show(cur+1)};
+lb.addEventListener('click',e=>{if(e.target===lb)hide()});
+document.addEventListener('keydown',e=>{if(!lb.classList.contains('open'))return;if(e.key==='Escape')hide();if(e.key==='ArrowLeft')show(cur-1);if(e.key==='ArrowRight')show(cur+1)});
+document.getElementById('yr').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
